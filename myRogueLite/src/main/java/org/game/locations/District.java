@@ -1,4 +1,9 @@
 package org.game.locations;
 
-public class District {
+abstract public class District {
+    public Location lieux;
+
+    public District(Location lieux) {
+        this.lieux = lieux;
+    }
 }

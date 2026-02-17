@@ -1,6 +1,10 @@
 package org.game.locations.zoneTypes;
 
+import org.game.locations.District;
 import org.game.locations.Location;
 
-public class Bourg extends Location {
+import java.util.Map;
+
+abstract public class Bourg extends Location {
+
 }
