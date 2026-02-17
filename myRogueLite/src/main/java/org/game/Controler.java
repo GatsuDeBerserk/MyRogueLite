@@ -4,6 +4,7 @@ import org.game.locations.Kingdom;
 
 public class Controler {
     static void main() {
-        new Kingdom();
+        Kingdom allo = new Kingdom();
+        allo.getKingdom();
     }
 }

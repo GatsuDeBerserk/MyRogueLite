@@ -13,4 +13,8 @@ public class Kingdom {
         this.kingdom.put("KherCity",new KehrBourg());
         this.kingdom.put("LangeBourg",new LangeHamlet());
     }
+
+    public Map<String, Location> getKingdom() {
+        return kingdom;
+    }
 }
