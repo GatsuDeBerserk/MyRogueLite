@@ -17,3 +17,6 @@ la meme nuit, vous remarquez quelqu'un verser quelquechose dans votre verre, vou
 Son neveau de 16 ans Richard est l'héritier de la Couronne, son couronnement vas se produire ce soir, trois jour suivant la mort du Roi, vous ne l'avez jammais rencontrer, mais il possede une réputation d'homme violent, erratic, vicieu et cruel
 Étant donner que vous avez été appointer par le roi précédent, Richard n'a pas d'autoriter sur vous sans preuves que vous etes un enemie de Dieu.
 Maintenantque vous faites partie des jeux politiques du chateau, vous devez faire votre devoir d'inquisiteur et démistifier les rumeurs qui apparaissent partout dans le royaume.
+
+
+https://stackoverflow.com/questions/77544829/exception-in-thread-main-java-lang-exceptionininitializererror-caused-by-null
