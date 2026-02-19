@@ -15,7 +15,7 @@
                <items>
                   <AnchorPane prefHeight="900.0" prefWidth="500.0">
                      <children>
-                        <BorderPane prefHeight="900.0" prefWidth="500.0" />
+                        <BorderPane id="gauche" prefHeight="900.0" prefWidth="500.0" />
                      </children>
                   </AnchorPane>
                   <AnchorPane prefHeight="900.0" prefWidth="900.0">
