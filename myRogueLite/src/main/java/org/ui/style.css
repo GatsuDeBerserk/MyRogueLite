@@ -1,3 +1,13 @@
-#gauche{
-    background-image: url("org/images/chevalier.png");
+#gauche {
+    /*-fx-background-color: blue;*/
+    -fx-background-image: url("../images/chevalier.png");
+    /*background-image:;*/
+}
+
+#droite {
+    -fx-background-color: red;
+}
+
+#bas {
+    -fx-background-color: black;
 }
