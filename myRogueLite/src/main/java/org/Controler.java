@@ -27,7 +27,7 @@ public class Controler extends Application {
 
 //        Scene scene=new Scene(new Group());
 //        scene.getStylesheets().add("org/ui/style.css");
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ui/jeux.fxml"));
+//        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ui/jeux.fxml"));
         Pane pane =new Pane();
         primaryStage.show();
 
