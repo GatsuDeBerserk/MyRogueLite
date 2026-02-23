@@ -4,4 +4,7 @@ import org.game.items.ITool;
 import org.game.items.weapon.MeleWeapon;
 
 public class Axe extends MeleWeapon implements ITool {
+    public Axe() {
+        super(10);
+    }
 }

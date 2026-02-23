@@ -1,4 +1,4 @@
 package org.game.caracters;
 
-public class Passive extends Caracter{
+public class Passive extends GameCharacter {
 }

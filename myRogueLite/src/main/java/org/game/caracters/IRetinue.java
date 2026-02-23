@@ -1,4 +1,4 @@
 package org.game.caracters;
 
-public interface IRetinue {
+public interface IRetinue{
 }
