@@ -6,6 +6,7 @@ import javafx.scene.*;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.layout.Pane;
+import org.game.DelegateReadLine;
 import org.game.caracters.Fighter;
 import org.game.caracters.GameCharacter;
 import org.game.caracters.fighters.Other.Charles;
@@ -16,6 +17,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import org.ui.ControllerTerminal;
 
 import java.lang.System;
 
@@ -27,8 +29,7 @@ public class Controler extends Application {
         Fighter charles = new Charles();
         System.out.println("Bang ! "+charles.attaque()+" Dégats dans ta face !");
 
-        Kingdom allo = new Kingdom();
-        allo.getKingdom();
+        ControllerTerminal.start();
     }
 
     @Override
