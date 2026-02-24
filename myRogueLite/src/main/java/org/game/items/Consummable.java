@@ -1,5 +1,5 @@
 package org.game.items;
 
-public class Consummable {
+public class Consummable extends InGameObject{
     int nombreEnPossession;
 }
