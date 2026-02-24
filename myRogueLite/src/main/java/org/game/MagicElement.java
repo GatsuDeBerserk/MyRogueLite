@@ -1,0 +1,5 @@
+package org.game;
+
+public enum MagicElement {
+    FIRE, ICE, WATER, WIND, EARTH, NATURE, MOVEMENT, SUMMON, REGENARATION, NECROMANCY, UNIQUE, TIME, LIFE, DEATH
+}

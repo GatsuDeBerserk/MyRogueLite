@@ -1,10 +1,9 @@
 package org.game.items.weapon.ranged;
 
-import org.game.items.ITool;
 import org.game.items.weapon.RangedWeapon;
 
-public class Rock extends RangedWeapon implements ITool {
-    public Rock() {
+public class Needle extends RangedWeapon {
+    public Needle() {
         super(3);
     }
 }

@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GameCharacter {
+
     public RandomDelegate rando = new RandomDelegate();
     public List<InGameObject> inventaire = new ArrayList<>();
 

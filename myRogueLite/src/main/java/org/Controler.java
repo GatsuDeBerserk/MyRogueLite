@@ -1,7 +1,7 @@
 package org;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
+//import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
@@ -21,37 +21,32 @@ import org.ui.ControllerTerminal;
 
 import java.lang.System;
 
-public class Controler extends Application {
+public class Controler {//extends Application {
     public static void main(String[] args) {
 //        launch(args);
-        System.out.println("allo");
-
-        Fighter charles = new Charles();
-        System.out.println("Bang ! "+charles.attaque()+" Dégats dans ta face !");
 
         ControllerTerminal.start();
     }
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("titre");
-
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("org/ui/jeux.fxml"));
-
-        TabPane pane = new TabPane();
-//        TitledPane tab =new TitledPane();
-        Tab tab = new Tab();
-        tab.setText("allo");
-        fxmlLoader.setController(this);
-        tab.setContent(fxmlLoader.load());
-        pane.getTabs().add(tab);
-
-        Scene scene = new Scene(pane);
-        scene.getStylesheets().add("org/ui/style.css");
-
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
-    }
+//    @Override
+//    public void start(Stage primaryStage) throws Exception {
+//        primaryStage.setTitle("titre");
+//
+////        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("org/ui/jeux.fxml"));
+//
+//        TabPane pane = new TabPane();
+////        TitledPane tab =new TitledPane();
+//        Tab tab = new Tab();
+//        tab.setText("allo");
+//        fxmlLoader.setController(this);
+//        tab.setContent(fxmlLoader.load());
+//        pane.getTabs().add(tab);
+//
+//        Scene scene = new Scene(pane);
+//        scene.getStylesheets().add("org/ui/style.css");
+//
+//
+//        primaryStage.setScene(scene);
+//        primaryStage.show();
+//    }
 }

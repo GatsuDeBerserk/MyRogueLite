@@ -2,18 +2,18 @@ package org.game.locations.zones;
 
 import org.game.locations.District;
 import org.game.locations.zoneTypes.Bourg;
-import org.game.locations.zones.kehr.*;
+import org.game.locations.zones.districts.*;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class KehrBourg extends Bourg {
     public KehrBourg() {
-        quartiers.put("Cemetry", new KehrMarket(this));
-        quartiers.put("Market", new KehrMarket(this));
-        quartiers.put("Monastary", new KehrMonastary(this));
-        quartiers.put("Wall", new KehrWall(this));
-        quartiers.put("Habitation", new KehrHabitations(this));
-        quartiers.put("TownHall", new KehrTownHall(this));
+        super(new HashMap<String, District>(),"Kehr Bourg");
+        district.put("Cemetry", new Cemetry(this));
+        district.put("Market", new Market(this));
+        district.put("Monastary", new Monastary(this));
+        district.put("Wall", new Wall(this));
+        district.put("Habitation", new Habitations(this));
+        district.put("TownHall", new TownHall(this));
     }
 }
