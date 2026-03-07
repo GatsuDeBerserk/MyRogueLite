@@ -9,12 +9,13 @@ import java.util.Map;
 
 public class HolyCapital extends Location {
     public HolyCapital() {
-        super(new HashMap<String, District>(),"Holy Capital of Marfan");
+        super(new HashMap<String, District>(), "Holy Capital of Marfan");
+        district.put("Aqueduct", new Aqueduct(this));
+        district.put("Cathedral", new Cathedral(this));
         district.put("Cemetry", new Cemetry(this));
-        district.put("Market", new Market(this));
-        district.put("Monastary", new Monastary(this));
-        district.put("Wall", new Wall(this));
-        district.put("Habitation", new Habitations(this));
-        district.put("TownHall", new TownHall(this));
+        district.put("Church1", new Church(this));
+        district.put("Church2", new Church(this));
+        district.put("Church3", new Church(this));
+        district.put("Fountain", new Fountain(this));
     }
 }

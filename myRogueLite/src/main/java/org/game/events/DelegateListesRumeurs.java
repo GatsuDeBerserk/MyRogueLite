@@ -11,4 +11,7 @@ public class DelegateListesRumeurs {
 
     public DelegateListesRumeurs() {
     }
+
+
+    // 1 méthode pour chaque type de rumeurs qui retourne 1 rumeur random
 }

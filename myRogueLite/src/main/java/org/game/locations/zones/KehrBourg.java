@@ -9,11 +9,14 @@ import java.util.HashMap;
 public class KehrBourg extends Bourg {
     public KehrBourg() {
         super(new HashMap<String, District>(),"Kehr Bourg");
-        district.put("Cemetry", new Cemetry(this));
-        district.put("Market", new Market(this));
-        district.put("Monastary", new Monastary(this));
-        district.put("Wall", new Wall(this));
-        district.put("Habitation", new Habitations(this));
-        district.put("TownHall", new TownHall(this));
+//        district.put("Cemetry", new Cemetry(this));
+//        district.put("Market", new Market(this));
+//        district.put("Monastary", new Monastary(this));
+//        district.put("Wall", new Wall(this));
+//        district.put("Habitation", new Habitations(this));
+//        district.put("TownHall", new TownHall(this));
+        district.put("Fields", new Fields(this));
+        district.put("Mines", new Mines(this));
+        district.put("Forest", new Forest(this));
     }
 }
