@@ -1,6 +1,8 @@
 package org.game.locations;
 
+import org.game.RandomDelegate;
 import org.game.events.DelegateListesRumeurs;
+import org.game.events.Rumor;
 import org.game.locations.zones.HolyCapital;
 import org.game.locations.zones.KehrBourg;
 import org.game.locations.zones.LangeHamlet;
@@ -9,14 +11,13 @@ import org.ui.ControllerTerminal;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.ui.ControllerTerminal.listAllyCaracters;
 
 public class Kingdom {
     private Map<String, Location> kingdom = new HashMap<>();
-    DelegateListesRumeurs rumeurs;
+    private Rumor currentRumor;
+    private RandomDelegate rd = new RandomDelegate();
 
-    public Kingdom(DelegateListesRumeurs rumeurs) {
-        this.rumeurs=rumeurs;
+    public Kingdom() {
         addLoc(new KehrBourg());
         addLoc(new LangeHamlet());
         addLoc(new HolyCapital());
@@ -30,6 +31,12 @@ public class Kingdom {
         this.kingdom.put(location.name, location);
     }
 
-    public void generateNewEncounter(){
+    public Rumor generateNewEncounter() {
+        int locationNumber = rd.from0toX(kingdom.size());
+        int i = 0;
+        for (Location loc : kingdom.values()) {
+
+        }
+        return new Rumor();
     }
 }

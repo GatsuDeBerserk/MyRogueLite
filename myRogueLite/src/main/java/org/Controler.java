@@ -22,11 +22,13 @@ import org.ui.ControllerTerminal;
 import java.lang.System;
 
 public class Controler {//extends Application {
+
     public static void main(String[] args) {
 //        launch(args);
 
         System.out.println();
-        ControllerTerminal.start();
+        ControllerTerminal ct = new ControllerTerminal();
+        ct.start();
     }
 
 //    @Override

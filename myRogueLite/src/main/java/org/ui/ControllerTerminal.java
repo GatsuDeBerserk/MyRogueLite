@@ -20,12 +20,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ControllerTerminal {
-    public static List<IAlly> listAllyCaracters = new ArrayList<IAlly>();
-    public static List<IEnemie> listEnemieCaracters = new ArrayList<IEnemie>();
-    public static DelegateListesRumeurs rumeurs=new DelegateListesRumeurs();
-    public static Kingdom kingdom = new Kingdom(rumeurs);
+    public List<IAlly> listAllyCaracters = new ArrayList<IAlly>();
+    public List<IEnemie> listEnemieCaracters = new ArrayList<IEnemie>();
+    public Kingdom kingdom = new Kingdom();
 
-    public static void start() {
+    public void start() {
 //        Fighter charles = new Charles();
 //        System.out.println("Bang ! "+charles.attaque()+" Dégats dans ta face !");
 //        System.out.println(DelegateReadLine.question());
@@ -36,7 +35,7 @@ public class ControllerTerminal {
         }
     }
 
-    public static void remplireListes() {
+    public void remplireListes() {
         Andre andre = new Andre();
 
         listAllyCaracters.add(new Jeanne());
