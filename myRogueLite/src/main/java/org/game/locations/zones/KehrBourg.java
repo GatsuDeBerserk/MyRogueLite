@@ -1,5 +1,6 @@
 package org.game.locations.zones;
 
+import org.game.events.Rumor;
 import org.game.locations.District;
 import org.game.locations.zoneTypes.Bourg;
 import org.game.locations.zones.districts.*;
@@ -18,5 +19,10 @@ public class KehrBourg extends Bourg {
         district.put("Fields", new Fields(this));
         district.put("Mines", new Mines(this));
         district.put("Forest", new Forest(this));
+    }
+
+    @Override
+    public Rumor newRumor() {
+        return null;
     }
 }

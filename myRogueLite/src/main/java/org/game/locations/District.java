@@ -13,4 +13,5 @@ abstract public class District {
     }
 
     public abstract Rumor getRumor(Location lieux);
+
 }

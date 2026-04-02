@@ -1,5 +1,6 @@
 package org.game.locations.zones;
 
+import org.game.events.Rumor;
 import org.game.locations.District;
 import org.game.locations.zoneTypes.Hamlet;
 import org.game.locations.zones.districts.*;
@@ -17,5 +18,10 @@ public class LangeHamlet extends Hamlet {
 //        district.put("ChiefsHouse", new ChiefsHouse(this));
 //        district.put("Forest", new Forest(this));
 //        district.put("Fields", new Fields(this));
+    }
+
+    @Override
+    public Rumor newRumor() {
+        return null;
     }
 }

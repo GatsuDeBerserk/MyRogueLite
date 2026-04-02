@@ -1,5 +1,6 @@
 package org.game.locations.zones;
 
+import org.game.events.Rumor;
 import org.game.locations.District;
 import org.game.locations.Location;
 import org.game.locations.zones.districts.*;
@@ -17,5 +18,10 @@ public class HolyCapital extends Location {
         district.put("Church2", new Church(this));
         district.put("Church3", new Church(this));
         district.put("Fountain", new Fountain(this));
+    }
+
+    @Override
+    public Rumor newRumor() {
+        return null;
     }
 }

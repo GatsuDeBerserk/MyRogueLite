@@ -31,7 +31,11 @@ public class ControllerTerminal {
 //        System.out.println(DelegateReadLine.question("je pose une question"));
         remplireListes();
         while (1 == 1) {
-            kingdom.generateNewEncounter();
+            try {
+                kingdom.generateNewEncounter();
+            } catch (Exception e) {
+                System.out.println("erreur dans l'aquisition d'une location: " + e.getMessage());
+            }
         }
     }
 

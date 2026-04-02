@@ -1,6 +1,8 @@
 package org.game.locations;
 
 
+import org.game.events.Rumor;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,4 +14,6 @@ abstract public class Location {
         this.district = district;
         this.name = name;
     }
+
+    abstract public Rumor newRumor();
 }

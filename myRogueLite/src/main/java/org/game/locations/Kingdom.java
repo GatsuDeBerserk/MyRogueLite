@@ -33,10 +33,14 @@ public class Kingdom {
 
     public Rumor generateNewEncounter() {
         int locationNumber = rd.from0toX(kingdom.size());
+        if (locationNumber == 0) throw new ArithmeticException("no loctions in the kingdom");
         int i = 0;
         for (Location loc : kingdom.values()) {
-
+            if (locationNumber == i) {
+                return loc.newRumor();
+            }
+            i++;
         }
-        return new Rumor();
+        return null;
     }
 }
