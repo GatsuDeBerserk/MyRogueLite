@@ -21,8 +21,4 @@ public class KehrBourg extends Bourg {
         district.put("Forest", new Forest(this));
     }
 
-    @Override
-    public Rumor newRumor() {
-        return null;
-    }
 }

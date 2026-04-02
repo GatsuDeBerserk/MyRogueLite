@@ -9,5 +9,4 @@ public class Mines extends District {
     public Mines(Location lieux) {
         super(lieux);
     }
-
 }

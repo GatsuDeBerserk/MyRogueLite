@@ -13,8 +13,4 @@ public class Aqueduct extends District {
         possibleRumors= List.of(new Poisonning());
     }
 
-    @Override
-    public Rumor getRumor(Location lieux) {
-        return null;
-    }
 }

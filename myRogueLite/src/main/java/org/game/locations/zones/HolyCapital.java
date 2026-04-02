@@ -20,8 +20,4 @@ public class HolyCapital extends Location {
         district.put("Fountain", new Fountain(this));
     }
 
-    @Override
-    public Rumor newRumor() {
-        return null;
-    }
 }

@@ -20,8 +20,4 @@ public class LangeHamlet extends Hamlet {
 //        district.put("Fields", new Fields(this));
     }
 
-    @Override
-    public Rumor newRumor() {
-        return null;
-    }
 }

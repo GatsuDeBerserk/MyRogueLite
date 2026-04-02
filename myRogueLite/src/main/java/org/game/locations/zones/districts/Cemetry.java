@@ -10,8 +10,4 @@ public class Cemetry extends District {
         super(lieux);
     }
 
-    @Override
-    public Rumor getRumor(Location lieux) {
-        return null;
-    }
 }
